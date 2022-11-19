@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is survery form</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <div id="heading">
+    <h1 id=title>Survey Form </h1>
+    <p id="description">lorem ipusm dummy</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>name:</b></label>
+            <input id="name" type="name" name="name" class="form" required placeholder="Your name"><br>
+            <br>
+            <label id="email-label"><b>mail:</b></label>
+            <input id="email" type="email" name="email" class="form" required placeholder="someone@gmail.com"><br>
+            <br>
+            <label id="number-label"><b>age:</b></label>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="18+">
+         </div>
+         <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>Expertise  </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="C">Procedural c</option>
+                <option value="Python">python</option>
+                <option value="C#">C#</option>
+                <option value="php">PHP</option>
+                <option value="Js">Java Script</option>
+                <option value="Go">Go </option>
+                <option value="ruby">Ruby</option>
+                <option value="C++">CPP</option>
+                <option value="Java">Java</option>
+            </select>
+         </div>
+         <div id="button-area">
+             <br>
+            <label id="job-label"><b>Doing a JOb: </b></label><br>
+            <input type="radio" class="radio-inline" name="gender" value="employed" checked> lorem<br>
+            <input type="radio" class="radio-inline" name="gender" value="freelancer"> lorem<br>
+            <input type="radio" class="radio-inline" name="gender" value="applier"> lorem<br>
+            <input type="radio" class="radio-inline" name="gender" value="unemployed"> lorem
+          </div>
+          <div id="button-area"><br>
+            <label id="os-label"><b>OS exp </b></label><br>
+            <input type="checkbox" name="os1" value="windows" checked> linux mint<br>
+            <input type="checkbox" name="os2" value="linux"> ubuntu<br>
+            <input type="checkbox" name="0s3" value="mac"> mac<br>
+          </div>
+
+          <div id="dropdown"><br><br>
+            <label id="dropdown-label"><strong>another  </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form"><br><br>
+                <option value="C">C </option>
+                <option value="Python"> python</option>
+                <option value="C#"> .net  </option>
+                <option value="php"> laravel </option>
+                <option value="Js">reacrt </option>
+                <option value="Go">Go </option>
+                <option value="ruby">Ruby  </option>
+                <option value="C++">CPP</option>
+                <option value="Java">Java </option>
+            </select>
+         </div>
+          <div id="button-area"><br><br>
+            <label id="os-label"><b>OS </b></label><br>
+            <input type="checkbox" name="tech1" value="flutter"> Flutter<br>
+            <input type="checkbox" name="tech2" value="nodejs"> Node.js <br>
+            <input type="checkbox" name="tech3" value="tnflow"> tensor<br>
+            <input type="checkbox" name="tech3" value="git"> Github <br>
+            <input type="checkbox" name="tech3" value="devops"> Dev op <br>
+          </div>
+
+
+          <div id="ending"><br><br>
+            <label id="comments-label">Comment</label><br>
+            <textarea style= height:120px;" class="form" placeholder="Comment"></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
+    </div>
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
